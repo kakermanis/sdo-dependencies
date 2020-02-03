@@ -53,3 +53,4 @@ tth-sdo/main/default/objects/FAQ__kav
 
 
 tth-sdo/main/default/permissionsets/sfdc_chatbot_service_permset.permissionset-meta.xml
+tth-sdo/main/default/quickActions/Contact.New_Activity.quickAction-meta.xml
