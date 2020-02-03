@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_Forecast_Judgement__c</fullName>
+    <externalId>false</externalId>
+    <label>Manager Forecast Judgement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IN</fullName>
+                <default>false</default>
+                <label>IN</label>
+            </value>
+            <value>
+                <fullName>UP +</fullName>
+                <default>false</default>
+                <label>UP +</label>
+            </value>
+            <value>
+                <fullName>UP -</fullName>
+                <default>false</default>
+                <label>UP -</label>
+            </value>
+            <value>
+                <fullName>OUT</fullName>
+                <default>false</default>
+                <label>OUT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

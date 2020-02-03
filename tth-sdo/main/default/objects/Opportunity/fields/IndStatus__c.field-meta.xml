@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IndStatus__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( URLsrc__c&amp;&quot;/servlet/servlet.ImageServer?id=&quot;&amp;
+IF(AND(Age__c &lt; 30, Not(IsClosed) ), &quot;0156g000001GtsG&amp;oid=&quot;&amp;$Organization.Id,
+IF( AND(Age__c&lt;45, NOT(IsClosed)), &quot;0156g000001GtsH&amp;oid=&quot;&amp;$Organization.Id, 
+IF(AND(Age__c&gt;60, NOT(IsClosed)), &quot;0156g000001GtsI&amp;oid=&quot;&amp;$Organization.Id,
+IF(IsWon, &quot;0156g000001GtsG&amp;oid=&quot;&amp;$Organization.Id,
+IF(NOT(IsWon), &quot;0156g000001GtsG&amp;oid=&quot;&amp;$Organization.Id,
+&quot;0156g000001GtsG&amp;oid=&quot;&amp;$Organization.Id
+))))),&quot;&quot;,22,22)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Dependent on Age field.  Good = Age &lt; 30 Days.  Warning = Age &lt; 45 Days. Poor = Age &gt; 60 Days.</inlineHelpText>
+    <label>Age Indicator</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

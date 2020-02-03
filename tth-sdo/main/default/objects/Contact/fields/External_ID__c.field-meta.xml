@@ -3,11 +3,12 @@
     <fullName>External_ID__c</fullName>
     <caseSensitive>false</caseSensitive>
     <externalId>true</externalId>
-    <inlineHelpText>Contact External ID</inlineHelpText>
+    <inlineHelpText>This is used to consistently import data to a version of the SDO and translate data into other languages.</inlineHelpText>
     <label>External ID</label>
     <length>255</length>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
     <type>Text</type>
     <unique>true</unique>
 </CustomField>

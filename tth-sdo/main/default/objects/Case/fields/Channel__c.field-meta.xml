@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Channel__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE( URLsrc__c&amp;&quot;/servlet/servlet.ImageServer?id=&quot;&amp;CASE( Origin, 
+&quot;Phone&quot;, &quot;0156g000001GtsE&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Email&quot;, &quot;0156g000001Gtt3&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Chat&quot;, &quot;0156g000001Gtt4&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Website&quot;, &quot;0156g000001Gtt5&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Web&quot;, &quot;0156g000001Gtt5&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Community&quot;, &quot;0156g000001Gtt6&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Mobile Device&quot;, &quot;0156g000001Gtt7&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Q&amp;A&quot;, &quot;0156g000001Gtt6&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Facebook&quot;, &quot;0156g000001GtsC&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Twitter&quot;, &quot;0156g000001Gtt8&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Google&quot;, &quot;0156g000001Gtt9&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Sina Weibo&quot;, &quot;0156g000001GttA&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Portal&quot;, &quot;0156g000001Gtt6&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Instagram&quot;, &quot;0156g000001GttB&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;LinkedIn&quot;, &quot;0156g000001GttC&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Salesforce IoT&quot;, &quot;0156g000001GttD&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;Text Session&quot;, &quot;0156g000001GtsD&amp;oid=&quot;&amp;$Organization.Id, 
+&quot;SMS&quot;, &quot;0156g000001GtsD&amp;oid=&quot;&amp;$Organization.Id, 
+
+&quot;0156g000001GtsE&amp;oid=&quot;&amp;$Organization.Id),&quot;&quot;,22,22)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Channel</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

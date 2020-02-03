@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sign_with_DocuSign</fullName>
+    <availability>online</availability>
+    <displayType>button</displayType>
+    <linkType>javascript</linkType>
+    <masterLabel>Sign with DocuSign</masterLabel>
+    <openType>onClickJavaScript</openType>
+    <protected>false</protected>
+    <url>var rndnum = Math.floor(Math.random()*1000000); 
+
+window.open(&#39;https://demo.docusign.net/Member/PowerFormSigning.aspx?PowerFormId=c4926e5b-13f6-48f0-b0bd-23f79350783d&amp;Decision+Maker_Email=any.signer%2b{!YEAR(TODAY())}{!MONTH(TODAY())}{!DAY(TODAY())}{!HOUR(TIMENOW())}{!MINUTE(TIMENOW())}{!SECOND(TIMENOW())}{!MILLISECOND(TIMENOW())}@live.com&amp;Decision+Maker_UserName={!Contact.FirstName}+{!Contact.LastName}&amp;DSFSSourceObjectId={!Opportunity.Id}&amp;PO=12345&amp;Signer_Title={!Contact.Title}&amp;Signer_Company={!Account.Name}&amp;Sender_Email={!$User.Email}&amp;Sender_Company={!$User.CompanyName}&amp;Sender_Name={!$User.FirstName}+{!$User.LastName}&amp;%23%23SFOpportunity={!Opportunity.Id}&#39;,&#39;PowerFormWindow&#39;+rndnum);</url>
+</WebLink>
