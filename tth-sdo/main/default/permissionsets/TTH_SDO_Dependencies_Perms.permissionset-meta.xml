@@ -20,6 +20,11 @@
         <field>Contact.External_ID__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <hasActivationRequired>false</hasActivationRequired>
     <label>TTH_SDO_Dependencies_Perms</label>
 </PermissionSet>
